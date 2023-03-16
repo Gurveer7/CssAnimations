@@ -1,0 +1,17 @@
+.mova {
+    position: relative;
+    height: 500px;
+    animation-name: updown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes updown {
+  from {
+    top: 0;
+  }
+  to {
+    top: 20px;
+  }
+}
